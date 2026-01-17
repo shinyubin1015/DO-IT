@@ -1,7 +1,7 @@
 function CommunityPost() {
     return (
         <div className="Community-post">
-            <a href="" className="Community-post-content">
+            <a href="#" className="Community-post-content">
                 <h4>----커뮤니티 글 제목----</h4>
                 <div className="Community-content">
                     <span className="view">319</span>
