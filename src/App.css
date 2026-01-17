@@ -192,6 +192,7 @@ main {
 .main-page-mypage-header {
   border: 1px solid #000;
 }
+
 /* ================================================ */
 .login-page {
   width: 100%;
@@ -237,9 +238,11 @@ main {
   margin-bottom: 25px;
   border-radius: 8px;
 }
+
 .login-page-content input:focus {
   outline: none;
 }
+
 .login-page-content .login_bt {
   width: 638px;
   display: flex;
@@ -254,12 +257,14 @@ main {
 .login-page-content .login_bt p {
   font-size: 16px;
 }
+
 .login-page-content .confirm {
   position: absolute;
   bottom: 40px;
   display: flex;
   flex-direction: column;
 }
+
 .login-page-content button {
   width: 638px;
   height: 80px;
@@ -270,11 +275,13 @@ main {
   border-radius: 6px;
   color: #fff;
 }
+
 .members {
   color: #838383;
   padding: 10px;
   margin-right: 450px;
 }
+
 /* ================================================ */
 .member-input-page {
   width: 100%;
@@ -282,6 +289,7 @@ main {
   background: #92D5FF;
   position: relative;
 }
+
 .member-input-bg {
   width: 895px;
   height: 797px;
@@ -293,10 +301,12 @@ main {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, .25) 0px 0px 10px;
 }
+
 .member-input-content {
   width: 638px;
   margin: 0 auto;
 }
+
 .member-input-content input {
   width: 638px;
   height: 55px;
@@ -309,9 +319,11 @@ main {
   margin-bottom: 25px;
   border-radius: 8px;
 }
+
 .member-input-content input:focus {
   outline: none;
 }
+
 .member-input-bg h3 {
   text-align: center;
   align-items: center;
@@ -319,26 +331,31 @@ main {
   font-size: 36px;
   font-weight: 400;
 }
+
 .member-input-content p {
   font-size: 16px;
   text-align: left;
-  
+
   margin-bottom: 10px;
 }
+
 .member-input-content .username {
   width: 638px;
   display: flex;
   gap: 20px;
 }
+
 .member-input-content .username .userid-label {
   display: flex;
   gap: 20px;
   align-items: center;
 }
+
 .member-input-content .username .userid-label input {
   margin: 0;
 }
-.member-input-content .username .userid .userid-check{
+
+.member-input-content .username .userid .userid-check {
   width: 90px;
   height: 35px;
   background: #009DFF;
@@ -349,10 +366,11 @@ main {
   color: #fff;
 }
 
-.member-input-content .username input{
+.member-input-content .username input {
   width: 250px;
   margin-right: 18px;
 }
+
 .member-input-bg .confirm {
   position: absolute;
   bottom: 50px;
@@ -361,6 +379,7 @@ main {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .member-input-bg button {
   width: 638px;
   height: 80px;
@@ -371,6 +390,7 @@ main {
   border-radius: 6px;
   color: #fff;
 }
+
 /* ================================================ */
 .Community-header {
   text-align: center;
@@ -403,6 +423,7 @@ main {
   width: 31px;
   filter: invert(100%);
 }
+
 /* ================================================ */
 .Community-main {
   width: 934px;
@@ -476,6 +497,7 @@ main {
   height: 150px;
   display: flex;
 }
+
 .Community-footer-content {
   width: 934px;
   margin: 0 auto;
@@ -483,6 +505,7 @@ main {
   position: relative;
 
 }
+
 .Community-footer .page-number {
   width: 60%;
   text-align: center;
@@ -509,11 +532,13 @@ main {
   font-weight: bold;
   font-size: 16px;
 }
+
 .Community-footer .page-number span {
   font-size: 30px;
   font-weight: 400;
   margin: 0 10px;
 }
+
 .Community-footer .write-button {
   width: 60px;
   height: 60px;
@@ -522,12 +547,191 @@ main {
   position: absolute;
   right: 50px;
 }
-.Community-footer .write-button img{
+
+.Community-footer .write-button img {
   width: 30px;
   filter: invert(100%);
 }
-/* ================================================ */
 
+/* ================================================ */
+.Community-view-header {
+  margin: 0 auto;
+  width: 872px;
+  padding: 20px 0;
+}
+
+.Community-view-header .Community-view-title {
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+}
+
+.Community-view-header .Community-view-info {
+  width: 100%;
+}
+
+.Community-view-header .Community-view-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Community-view-header .Community-view-info th {
+  background: #F0F0F0;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, .5);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.Community-view-header .Community-view-info td {
+  border-bottom: 1px solid rgba(0, 0, 0, .5);
+  height: 67px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: normal;
+
+}
+
+.Community-view-header .Community-view-info .file {
+  width: 100px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.Community-view-header img {
+  width: 38px;
+  background: #D2EEFF;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.Community-view-main {
+  margin: 0 auto;
+  width: 872px;
+  padding: 40px 0px;
+  margin-bottom: 200px;
+}
+
+.Community-view-main .post-content {
+  min-height: 200px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 20px;
+
+}
+
+.Community-view-main .comments-section {
+  border-top: 1px solid #000;
+  margin-top: 40px;
+}
+
+.Community-view-main .comments-section h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+}
+
+.Community-view-main .comments-section .comment {
+  border-bottom: 1px solid rgba(0, 0, 0, .5);
+  padding: 10px 0;
+}
+
+.Community-view-main .comments-section .comment-time {
+  font-size: 12px;
+  color: #898989;
+}
+
+.Community-view-main .comments-section .add-comment {
+  margin-top: 20px;
+  min-height: 150px;
+  border: 1px solid #898989;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.Community-view-main .comments-section .add-comment textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 4px;
+  color: #2c2c2c;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.Community-view-main .comments-section .add-comment textarea:focus {
+  outline: 1px solid #898989;
+}
+
+.Community-view-main .comments-section .add-comment .comment-btn {
+  width: 100px;
+  height: 40px;
+  background: #65BAED;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  display: block;
+  margin-left: auto;
+}
+
+.Community-view-main .comments-section .add-comment .file-upload-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.Community-view-main .comments-section .add-comment .file-upload-form
+.custom-file-upload {
+  border: 1px solid #ccc;
+  width: 120px;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+.Community-view-main .comments-section .add-comment .file-upload-form
+.file-name {
+  width: 720px;
+  padding: 10px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#file-upload {
+  display: none;
+}
+.Community-view-footer {
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  bottom: 0;
+  background: #ffffff;
+}
+.Community-view-footer .back {
+  width: 179px;
+  height: 64px;
+  border-radius: 50px;
+  background: #009DFF;
+  color: #FFFFFF;
+  display: block;
+  margin: 20px auto 0;
+  font-size: 20px;
+  font-weight: bold;
+}
 /* ================================================ */
 .Community-input-header {
   margin: 0 auto;
