@@ -1,6 +1,7 @@
 import '../css/Community.css';
 import React from "react";
 import CommunityPost from "../components/CommunityPost";
+import { Link } from "react-router-dom";
 
 
 function Community() {
@@ -23,16 +24,16 @@ function Community() {
                         </div>
                     </div>
                 </div>
-                <CommunityPost />
-                <CommunityPost />
-                <CommunityPost />
-                <CommunityPost />
-                <CommunityPost />
-                <CommunityPost />
-                <CommunityPost />
-                <CommunityPost />
-                <CommunityPost />
-                <CommunityPost />
+                <Link to={'/view'}><CommunityPost /></Link>
+                <Link to={'/view'}><CommunityPost /></Link>
+                <Link to={'/view'}><CommunityPost /></Link>
+                <Link to={'/view'}><CommunityPost /></Link>
+                <Link to={'/view'}><CommunityPost /></Link>
+                <Link to={'/view'}><CommunityPost /></Link>
+                <Link to={'/view'}><CommunityPost /></Link>
+                <Link to={'/view'}><CommunityPost /></Link>
+                <Link to={'/view'}><CommunityPost /></Link>
+                <Link to={'/view'}><CommunityPost /></Link>
             </div>
             <footer className="Community-footer">
                 <div className="Community-footer-content">
@@ -47,7 +48,7 @@ function Community() {
                     <button>23</button>
                     <button className="next">→</button>
                 </div>
-                <button className="write-button"><img src="./images/icon/pan.png" alt="" /></button>
+                <Link to={'/input'}><button className="write-button"><img src="./images/icon/pan.png" alt="" /></button></Link>
                 </div>
             </footer>
         </section>

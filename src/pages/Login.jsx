@@ -1,4 +1,5 @@
 import '../css/Login.css';
+import { Link } from 'react-router-dom';
 
 function Login() {
     return (
@@ -16,7 +17,7 @@ function Login() {
                         <button>
                             로그인
                         </button>
-                        <a href="#" className="members">회원가입</a>
+                        <Link to={"/memberinput"}><a href='#' className='new-user'>회원가입</a></Link>
                     </div>
                 </div>
             </div>

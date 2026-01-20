@@ -1,25 +1,26 @@
 import '../css/Header.css';
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header className='project-header'>
       <div className='header-inner'>
         <div className='logo'>
-          <a href='#'>
+          <Link to={'/'}>
             <img src='./images/logo.png' alt='로고'/>
-          </a>
+          </Link>
         </div>
         <nav>
           <ul>
-            <li><a href='#'>멘토/멘티</a></li>
-            <li><a href='#'>커뮤니티</a></li>
-            <li><a href='#'>캘린더</a></li>
-            <li><a href='#'>마이페이지</a></li>
+            <li>멘토/멘티</li>
+            <Link to={'/community'}><li>커뮤니티</li></Link>
+            <li>캘린더</li>
+            <li>마이페이지</li>
           </ul>
         </nav>
         <div className='user'>
-          <a href='#' className='login'>로그인</a>/
-          <a href='#' className='new-user'>회원가입</a>
+          <Link to={"/Login"}><a href='#' className='login'>로그인</a></Link>/
+          <Link to={"/memberinput"}><a href='#' className='new-user'>회원가입</a></Link>
         </div>
         </div>
     </header>

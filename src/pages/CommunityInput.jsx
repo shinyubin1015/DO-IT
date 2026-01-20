@@ -1,4 +1,6 @@
 import '../css/CommunityInput.css';
+import { Navigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const no = () => {
     alert("아직 구현되지 않은 기능입니다.");};
@@ -8,7 +10,7 @@ function CommunityInput() {
         <div className="Community-input">
             <div className="Community-input-header">
                 <h2>커뮤니티 글 작성</h2>
-                <button className="close"><img src="./images/icon/close.png" alt="닫기" /></button>
+                <Link to={"/community"}><button className="close"><img src="./images/icon/close.png" alt="닫기" /></button></Link>
             </div>
             <div className="Community-input-main">
                 <div className="Community-input-title">
