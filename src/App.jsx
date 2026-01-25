@@ -3,7 +3,7 @@ import './App.css';
 import React, { Component } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header.jsx';
-import Main from './Main.jsx';
+import Main from './pages/Main.jsx';
 import Community from './pages/Community.jsx';
 import CommunityInput from './pages/CommunityInput.jsx';
 import CommunityView from './pages/CommunityView.jsx';
@@ -15,6 +15,7 @@ import { UserLayout } from './components/UserLayout.jsx';
 
 
 function App() {
+
   return (
     <BrowserRouter>
       <div className='App'>
@@ -33,7 +34,7 @@ function App() {
         </Routes>
       </div>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App
