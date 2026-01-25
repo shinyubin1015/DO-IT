@@ -9,12 +9,17 @@ import Login from './pages/Login.jsx';
 import MemberInput from './pages/MemberInput.jsx';
 import { MainLayout } from './components/MainLayout.jsx';
 import { UserLayout } from './components/UserLayout.jsx';
+import Posts from './components/Posts';
+import Post from './components/Post';
 
 
 function App() {
 
   return (
     <Routes>
+      <Route path="/post" element={<Posts />} />
+      <Route path="/post/:id" element={<Post />} />
+
       <Route element={<MainLayout/>}>
         <Route path="/" element={<Main />}></Route>
         <Route path="/community" element={<Community />}></Route>
